@@ -10,11 +10,17 @@ This project was developed as a **Final Year B.Tech Information Technology proje
 ## 🚀 Features
 
 • Secure user registration and login using Spring Security
+
 • RSA-based key generation for secure file access
+
 • Private key displayed only once during account creation
+
 • File upload and secure download functionality
+
 • Role-based dashboard (Admin / Employee)
+
 • MySQL database integration for file and user management
+
 • Modern UI using Thymeleaf templates
 
 ---
@@ -22,21 +28,31 @@ This project was developed as a **Final Year B.Tech Information Technology proje
 ## 🛠 Tech Stack
 
 Backend
+
 • Java
+
 • Spring Boot
+
 • Spring Security
 
 Frontend
+
 • HTML
+
 • CSS
+
 • Thymeleaf
 
 Database
+
 • MySQL
 
 Tools
+
 • Maven
+
 • Git
+
 • GitHub
 
 ---
@@ -46,7 +62,9 @@ Tools
 The system uses **RSA Cryptography** to generate a unique private key for each user.
 
 • The private key is displayed only once after registration
+
 • Users must provide the correct key to download files
+
 • This prevents unauthorized file access even if login credentials are compromised
 
 ---
@@ -54,15 +72,23 @@ The system uses **RSA Cryptography** to generate a unique private key for each u
 ## 📂 Project Structure
 
 src/main/java
+
 • controller – Handles HTTP requests
+
 • service – Business logic
+
 • repository – Database interaction
+
 • security – Authentication and authorization
+
 • model – Entity classes
 
 src/main/resources
+
 • templates – Thymeleaf HTML pages
+
 • static – CSS and frontend assets
+
 • application.properties – Configuration settings
 
 ---
@@ -72,9 +98,13 @@ src/main/resources
 Through this project, I gained experience in:
 
 • Spring Boot application development
+
 • Secure authentication with Spring Security
+
 • RSA cryptographic key generation
+
 • Database integration using MySQL
+
 • Full-stack web application development
 
 ---
@@ -82,6 +112,7 @@ Through this project, I gained experience in:
 ## 👨‍💻 Author
 
 Swetha S
+
 Interested in Cloud Computing, Security, and Backend Development.
 
 ---
@@ -89,6 +120,9 @@ Interested in Cloud Computing, Security, and Backend Development.
 ## 📌 Future Improvements
 
 • Cloud storage integration (AWS S3)
+
 • File encryption before upload
+
 • Multi-user file sharing
+
 • Activity logging and monitoring
